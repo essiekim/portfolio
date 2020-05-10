@@ -94,6 +94,11 @@
 		appearance: none;
 	}
 
+	.avatar{
+		border-radius: 50%;
+		height: 200px;
+	}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -324,8 +329,8 @@
 			top: -0.25em;
 		}
 
-		h2 + p {
-		}
+		// h2 + p {
+		// }
 
 		h3 + p {
 			font-size: 1.1em;
@@ -440,7 +445,7 @@
 	}
 
 	input[type="checkbox"],
-	input[type="radio"], {
+	input[type="radio"] {
 		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
@@ -1196,7 +1201,7 @@
 			}
 
 			input[type="checkbox"],
-			input[type="radio"], {
+			input[type="radio"] {
 				& + label {
 					color: _palette($p, fg);
 
