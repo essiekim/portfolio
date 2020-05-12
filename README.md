@@ -13,7 +13,7 @@ thank you gatsby-spectral for the template!
 - [x] update design page
 
 - [x] add in images for projects page
-- [ ] integrate download link for resume
-- [ ] create resume page (with written info)
+- [x] integrate download link for resume
+- [x] create resume page (with written info)
 
 - [x] favicon update

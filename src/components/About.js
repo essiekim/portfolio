@@ -24,19 +24,6 @@ export default function About() {
             <a href="https://fullstackacademy.com">Fullstack Academy of Code</a>
             , where I mentor 33 students, debug code, and lead technical
             interviews.
-            {/* Before I started on my path into development, I was a{' '}
-            <b>graphic designer</b>. The parts that I loved about designing were
-            brainstorming, creating solutions, and ultimately get to hold
-            something tangible by the end of the process. I once had the
-            opportunity to work side-by-side with a developer, and I saw how she
-            brought my lo-fi prototype to life. <i>I was awed</i>. It was then
-            that I knew this was what I wanted to do. Long-ish story short, I
-            applied to the <b>Grace Hopper Program</b> at Fullstack Academy of
-            Code, was accepted, graduated, then was selected to become a fellow
-            to help guide students on their journey to software development. I
-            am very excited for my next opportunity to make an impact with my
-            experience as both a developer and designer!
-          <br /> */}
           </p>
           <p>
             Outside of work, I am a dog mom of two (
@@ -48,7 +35,12 @@ export default function About() {
             muscles when I can!
           </p>
           <h4>Resume</h4>
-          <p>VIEW / DOWNLOAD</p>
+          <p>
+            <a href="/resume">VIEW</a> /{' '}
+            <a href="https://drive.google.com/uc?export=download&id=1zfykYz44rjgLyLTE96GuS_2ptqci0NMS">
+              DOWNLOAD
+            </a>
+          </p>
         </header>
         <ul className="icons major">
           <li>
