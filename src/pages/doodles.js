@@ -10,9 +10,16 @@ const Doodles = () => {
           <h2>Doodles</h2>
         </header>
         <section className="wrapper style5">
-          <div align="center">
-
-          <img src={reactDiagram} alt="react props" width="1200px"/>
+          <div align="inner">
+            <div className="box alt">
+              <div className="row gtr-50 gtr-uniform">
+                <div className="col-12">
+                  <span className="image fit">
+                    <img src={reactDiagram} alt="react props" />
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </article>

@@ -2,6 +2,9 @@ import React from 'react'
 import Layout from '../components/Layout'
 
 import sokocity from '../../src/assets/images/sokocity-square.jpg'
+import famex from '../../src/assets/images/famex-square.jpg'
+import chickn from '../../src/assets/images/chickntender-square.jpg'
+import chicknPreview from '../../src/assets/images/chickntender.gif'
 
 const Projects = () => {
   return (
@@ -69,6 +72,9 @@ const Projects = () => {
 
             <h3>Chick'n Tender</h3>
             <h6>Solo Developer | March 2020</h6>
+            <span className="image right">
+              <img src={chicknPreview} alt="" />
+            </span>
             <p>
               A mobile application built using Flutter/Dart and Yelp API during
               a 4 day hackathon.
@@ -104,6 +110,9 @@ const Projects = () => {
             <hr />
             <h3>FameX</h3>
             <h6>Full Stack Developer | March 2020</h6>
+            <span className="image left">
+              <img src={famex} alt="" />
+            </span>
             <p>
               An e-commerce web application built using React, Redux, Node,
               Express, Sequelize, PostgreSQL, Passport, and Material UI.

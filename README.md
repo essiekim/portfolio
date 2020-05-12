@@ -8,12 +8,12 @@ thank you gatsby-spectral for the template!
 
 - [x] create graphics
 
-- [/] fill out pages (design, doodles)
-- [ ] finish making logos for projects page
-- [ ] update design page
+- [x] fill out pages (design, doodles)
+- [x] finish making logos for projects page
+- [x] update design page
 
-- [/] add in images for projects page
+- [x] add in images for projects page
 - [ ] integrate download link for resume
 - [ ] create resume page (with written info)
 
-- [ ] favicon update
+- [x] favicon update

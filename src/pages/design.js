@@ -1,12 +1,21 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
-import pic1 from '../assets/images/poster_1.png'
+import pic1 from '../assets/images/Box_3.jpg'
 import pic2 from '../assets/images/Box_1-2.jpg'
 import pic3 from '../assets/images/Box_4.jpg'
-import pic4 from '../assets/images/pic04.jpg'
-import pic5 from '../assets/images/pic05.jpg'
-import banner from '../assets/images/miso-comp.jpg'
+
+import pic4 from '../assets/images/sc-1.jpg'
+import pic5 from '../assets/images/sc-2.jpg'
+import pic6 from '../assets/images/sc-3.jpg'
+
+import pic7 from '../assets/images/ig-bundle.gif'
+import pic8 from '../assets/images/JPMA.jpg'
+import pic9 from '../assets/images/ig-product.gif'
+
+
+
+import banner from '../assets/images/poster_1.png'
 
 const Design = () => {
   return (
@@ -24,6 +33,23 @@ const Design = () => {
                     <img src={banner} alt="" />
                   </span>
                 </div>
+
+                <div className="col-4">
+                  <span className="image fit">
+                    <img src={pic4} alt="" />
+                  </span>
+                </div>
+                <div className="col-4">
+                  <span className="image fit">
+                    <img src={pic5} alt="" />
+                  </span>
+                </div>
+                <div className="col-4">
+                  <span className="image fit">
+                    <img src={pic6} alt="" />
+                  </span>
+                </div>
+
                 <div className="col-4">
                   <span className="image fit">
                     <img src={pic1} alt="" />
@@ -39,34 +65,20 @@ const Design = () => {
                     <img src={pic3} alt="" />
                   </span>
                 </div>
+
                 <div className="col-4">
                   <span className="image fit">
-                    <img src={pic3} alt="" />
+                    <img src={pic7} alt="" />
                   </span>
                 </div>
                 <div className="col-4">
                   <span className="image fit">
-                    <img src={pic2} alt="" />
+                    <img src={pic8} alt="" />
                   </span>
                 </div>
                 <div className="col-4">
                   <span className="image fit">
-                    <img src={pic1} alt="" />
-                  </span>
-                </div>
-                <div className="col-4">
-                  <span className="image fit">
-                    <img src={pic2} alt="" />
-                  </span>
-                </div>
-                <div className="col-4">
-                  <span className="image fit">
-                    <img src={pic1} alt="" />
-                  </span>
-                </div>
-                <div className="col-4">
-                  <span className="image fit">
-                    <img src={pic3} alt="" />
+                    <img src={pic9} alt="" />
                   </span>
                 </div>
               </div>
