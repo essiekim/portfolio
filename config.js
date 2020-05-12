@@ -46,7 +46,7 @@ module.exports = {
       style: 'wrapper alt style3',
       header: 'doodles and thoughts',
       subHeader: 'Featured: React Props',
-      pic: 'pic3',
+      pic: 'react-props-splash',
       paragraph:
         'Some illustrated diagrams that I drew during my time as a teaching fellow to help create a visual representation of concepts.',
       button: 'see more',

@@ -1,9 +1,9 @@
 import React from 'react'
 import { sectionInfo } from '../../config'
 
-import pic1 from '../assets/images/pic02.jpg'
+import pic1 from '../assets/images/SokoCity.jpg'
 import pic2 from '../assets/images/Box_4.jpg'
-import pic3 from '../assets/images/pic03.jpg'
+import pic3 from '../assets/images/react-props-splash.jpg'
 
 export default function SectionList() {
   return (
