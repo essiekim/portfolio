@@ -13,7 +13,9 @@ import pic7 from '../assets/images/ig-bundle.gif'
 import pic8 from '../assets/images/JPMA.jpg'
 import pic9 from '../assets/images/ig-product.gif'
 
-
+import pic10 from '../assets/images/miso-1.jpg'
+import pic11 from '../assets/images/momo.jpg'
+import pic12 from '../assets/images/miso-2.jpg'
 
 import banner from '../assets/images/poster_1.png'
 
@@ -79,6 +81,22 @@ const Design = () => {
                 <div className="col-4">
                   <span className="image fit">
                     <img src={pic9} alt="" />
+                  </span>
+                </div>
+
+                <div className="col-4">
+                  <span className="image fit">
+                    <img src={pic10} alt="" />
+                  </span>
+                </div>
+                <div className="col-4">
+                  <span className="image fit">
+                    <img src={pic11} alt="" />
+                  </span>
+                </div>
+                <div className="col-4">
+                  <span className="image fit">
+                    <img src={pic12} alt="" />
                   </span>
                 </div>
               </div>
