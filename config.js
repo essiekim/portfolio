@@ -62,6 +62,12 @@ module.exports = {
       url: 'https://github.com/essiekim',
     },
     {
+      style: 'brands',
+      icon: 'fa-linkedin',
+      name: 'LinkedIn',
+      url: 'https://linkedin.com/in/estheryskim',
+    },
+    {
       style: 'solid',
       icon: 'fa-envelope',
       name: 'Email',
