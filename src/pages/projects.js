@@ -1,6 +1,8 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
+import sokocity from '../../src/assets/images/sokocity-square.jpg'
+
 const Projects = () => {
   return (
     <Layout fullMenu>
@@ -12,6 +14,9 @@ const Projects = () => {
           <div className="inner">
             <h3>SokoCity</h3>
             <h6>Full Stack Developer | April 2020</h6>
+            <span className="image left">
+              <img src={sokocity} alt="" />
+            </span>
             <p>
               A procedurally generated puzzle-rpg game built using Phaser 3,
               Firebase, React, and Node.
@@ -51,7 +56,10 @@ const Projects = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://youtu.be/9Yr-5DsVitw" style={{ borderBottom: 'none' }}>
+                  <a
+                    href="https://youtu.be/9Yr-5DsVitw"
+                    style={{ borderBottom: 'none' }}
+                  >
                     <i className="fab fa-youtube fa-2x" />
                   </a>
                 </li>
@@ -82,9 +90,9 @@ const Projects = () => {
               this opportunity to learn a new language as well as to step into
               the world of mobile development. Learning to write in Dart was a
               challenge, but I enjoyed learning the differences between Dart and
-              Javascript. Although my final
-              product by the end of the hackathon was not what I had set out to
-              create, I am extremely content with how it turned out.
+              Javascript. Although my final product by the end of the hackathon
+              was not what I had set out to create, I am extremely content with
+              how it turned out.
             </p>
             <a
               href="https://github.com/essiekim/chicknTender"

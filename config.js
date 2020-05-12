@@ -22,10 +22,10 @@ module.exports = {
   sectionInfo: [
     {
       id: 'two',
+      pic: 'pic1',
       style: 'wrapper alt style1',
       header: 'development',
       subHeader: 'Featured: SokoCity',
-      pic: 'pic1',
       paragraph:
         'Some of the projects that I have worked on. This includes a full stack e-commerce website, a mobile application using Flutter, and a procedurally generated puzzle-rpg game.',
       button: 'see projects',
@@ -33,20 +33,20 @@ module.exports = {
     },
     {
       id: 'three',
+      pic: 'pic2',
       style: 'wrapper alt style2',
       header: 'design',
       subHeader: 'Featured: BARK',
-      pic: 'pic2',
       paragraph: 'Some of my design work over the years as well as hobby photography.',
       button: 'see work',
       link: 'design'
     },
     {
       id: 'four',
+      pic: 'pic3',
       style: 'wrapper alt style3',
       header: 'doodles and thoughts',
       subHeader: 'Featured: React Props',
-      pic: 'react-props-splash',
       paragraph:
         'Some illustrated diagrams that I drew during my time as a teaching fellow to help create a visual representation of concepts.',
       button: 'see more',
